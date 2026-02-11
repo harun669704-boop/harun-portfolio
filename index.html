@@ -1,67 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mohd Harun | Data Analyst</title>
   <meta charset="UTF-8">
+  <title>Mohd Harun | Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1e293b, #020617);
+      animation: fadeIn 1.5s ease;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #93c5fd;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #020617;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #93c5fd;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: slideUp 1s ease;
+    }
+
+    h2 {
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
+
 <body>
 
+<header>
   <h1>Mohd Harun</h1>
-  <h3>Data Analyst Fresher</h3>
-
-  <p>📍 Rampur, Uttar Pradesh, India</p>
+  <p>Data Analyst Fresher</p>
+  <p>Rampur, Uttar Pradesh, India</p>
   <p>📧 harun669704@gmail.com | 📞 +91-7071433078</p>
+</header>
 
-  <hr>
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#education">Education</a>
+</nav>
 
-  <h2>Professional Summary</h2>
-  <p>
-    Data Analyst fresher with hands-on internship experience and Deloitte virtual job simulation exposure.
-    Skilled in Excel, SQL, Python, and data visualization. Experienced in working with real-world datasets,
-    creating dashboards, and generating actionable insights.
-  </p>
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      Data Analyst fresher with hands-on internship experience and Deloitte virtual job simulation exposure.
+      Skilled in Excel, SQL, Python, and data visualization. Passionate about turning data into actionable insights.
+    </p>
+  </div>
+</section>
 
+<section id="skills">
   <h2>Technical Skills</h2>
-  <ul>
-    <li>Excel (VLOOKUP, Pivot Tables, Charts)</li>
-    <li>SQL (Basic Queries)</li>
-    <li>Power BI (Basic Dashboards)</li>
-    <li>Python (Basic)</li>
-    <li>Data Cleaning</li>
-    <li>EDA (Exploratory Data Analysis)</li>
-    <li>Data Visualization</li>
-  </ul>
+  <div class="card">
+    <ul>
+      <li>Excel (VLOOKUP, Pivot Tables, Charts)</li>
+      <li>SQL (Basic Queries)</li>
+      <li>Power BI (Basic Dashboards)</li>
+      <li>Python (Basic)</li>
+      <li>Data Cleaning, EDA, Data Visualization</li>
+    </ul>
+  </div>
+</section>
 
+<section id="experience">
   <h2>Experience</h2>
-  <h4>Data Analyst Intern — Unified Mentor Pvt. Ltd. (Remote)</h4>
-  <p><b>Oct 2025 – Jan 2026</b></p>
-  <ul>
-    <li>Worked on real-world datasets for business analysis</li>
-    <li>Performed data cleaning and analysis using Excel, Python, and SQL</li>
-    <li>Built dashboards and reports using Power BI / Tableau</li>
-    <li>Generated actionable insights for decision-making</li>
-    <li>Received Letter of Recommendation for strong performance</li>
-  </ul>
+  <div class="card">
+    <h3>Data Analyst Intern — Unified Mentor Pvt. Ltd.</h3>
+    <p><b>Oct 2025 – Jan 2026</b></p>
+    <ul>
+      <li>Worked on real-world datasets for business analysis</li>
+      <li>Performed data cleaning and analysis using Excel, Python, and SQL</li>
+      <li>Built dashboards and reports using Power BI / Tableau</li>
+      <li>Generated actionable insights</li>
+      <li>Received Letter of Recommendation</li>
+    </ul>
+  </div>
+</section>
 
+<section id="projects">
   <h2>Projects</h2>
-  <ul>
-    <li><b>Supply Chain Management Analysis</b> — Python, SQL, Tableau</li>
-    <li><b>Coffee Sales Analysis</b> — Sales trend analysis & dashboards</li>
-    <li><b>Drug Side Effects & Medical Conditions Analysis</b> — Data cleaning & pattern analysis</li>
-  </ul>
+  <div class="card">
+    <ul>
+      <li><b>Supply Chain Management Analysis</b> — Python, SQL, Tableau</li>
+      <li><b>Coffee Sales Analysis</b> — Sales trend analysis & dashboards</li>
+      <li><b>Drug Side Effects & Medical Conditions Analysis</b> — Data cleaning & pattern analysis</li>
+    </ul>
+  </div>
+</section>
 
+<section id="certifications">
   <h2>Certifications</h2>
-  <ul>
-    <li>Deloitte Data Analytics Job Simulation – Forage (Feb 2026)</li>
-    <li>Data Analyst Internship Certificate – Unified Mentor Pvt. Ltd. (2026)</li>
-  </ul>
+  <div class="card">
+    <ul>
+      <li>Deloitte Data Analytics Job Simulation – Forage (Feb 2026)</li>
+      <li>Data Analyst Internship Certificate – Unified Mentor Pvt. Ltd. (2026)</li>
+    </ul>
+  </div>
+</section>
 
+<section id="education">
   <h2>Education</h2>
-  <ul>
-    <li>B.Com — M.J.P.R.U, Bareilly (2024 – Present)</li>
-    <li>Intermediate — U.P. Board (2024)</li>
-    <li>High School — U.P. Board (2022)</li>
-  </ul>
+  <div class="card">
+    <ul>
+      <li>B.Com — M.J.P.R.U, Bareilly (2024 – Present)</li>
+      <li>Intermediate — U.P. Board (2024)</li>
+      <li>High School — U.P. Board (2022)</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  © 2026 Mohd Harun | Data Analyst Portfolio
+</footer>
 
 </body>
 </html>
