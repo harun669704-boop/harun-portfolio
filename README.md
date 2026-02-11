@@ -1,4 +1,4 @@
-# Mohd Harun — Data Analyst Fresher
+# Mohd Harun — Data Analyst 
 
 📍 Rampur, Uttar Pradesh, India  
 📧 harun669704@gmail.com | 📞 +91-7071433078  
