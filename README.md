@@ -36,8 +36,8 @@ Data Analyst fresher with hands-on internship experience and Deloitte virtual jo
 - Intermediate — U.P. Board (2024)
 - High School — U.P. Board (2022)
 
-## Resume
-📄 [Download Resume PDF]() ye past karna hai
+
+
 
 
 
